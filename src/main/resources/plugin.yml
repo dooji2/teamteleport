@@ -1,0 +1,16 @@
+name: TeamTeleport
+main: com.dooji.teamteleport.TeamTeleport
+version: 1.0
+api-version: 1.20
+description: A proximity and team-based teleportation plugin.
+commands:
+  teamtp:
+    description: The main command of the mod.
+    usage: https://modrinth.com/project/teamteleport
+permissions:
+  teamteleport.admin:
+    description: Allows players to use teleport commands without approval.
+    default: op
+  teamteleport.use:
+    description: Allows regular players to use teleport commands with approval.
+    default: true

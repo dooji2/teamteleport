@@ -1,0 +1,6 @@
+# TeamTeleport Configuration
+
+teleport:
+  teleport-delay: 5
+  request-timeout: 15
+  command-timeout: 10
